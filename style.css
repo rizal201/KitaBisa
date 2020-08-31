@@ -1,0 +1,187 @@
+.logo{
+    width: 35px;
+    margin-left: 235px;
+}
+
+.searchbar{
+    width: 100%;
+    background: rgb(0, 174, 239);
+}
+
+.content{
+    background-color:white;
+    position: relative;
+    top: 0;
+    max-width: 628px;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: calc(90vh - 70vh);
+    margin: 0px auto;
+    padding: 0px 16px 80px
+}
+
+.tanya{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 80px;
+    margin: 0px 0px 0px;   
+}
+
+.button{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    background-color: rgb(0, 174, 239);
+    color: rgb(255, 255, 255);
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    transition: all 0.35s ease 0s;
+    text-decoration: none;
+    padding: 11px 37.5px;
+    border-radius: 20px;
+}
+
+.button1{
+    display: flex;
+    margin: 10px 0px 0px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 174, 239);
+    transition: all 0.35s ease 0s;
+    text-decoration: none;
+    padding: 11px 37.5px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: rgb(0, 174, 239);
+    border-image: initial;
+}
+
+.button1:hover{
+    color: rgb(0, 174, 239);
+}
+
+.chat{
+    color: rgb(0, 174, 239);
+}
+
+.slider{
+    background-color:white;
+    position: relative;
+    top: 20px;
+    max-width: 628px;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: calc(100vh - 50vh);
+    margin: 0px auto;
+    padding: 0px 16px 80px
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+.dana {
+    margin: 20px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.zakat{
+    margin: 20px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.donasi{
+    margin: 20px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.bisasembuh{
+    margin: 20px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.bantu{
+    margin: 20px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.bantusiapa{
+    margin: 20px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.pilihan{
+    margin: 10px 0px;
+}
+
+.tangan{
+    width: 2px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.zakat1{
+    width: 2px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.kbp{
+    width: 2px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.donasirutin{
+    width: 2px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
