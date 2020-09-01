@@ -1,21 +1,70 @@
-.logo{
-    width: 35px;
-    margin-left: 235px;
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 11;
+    background: rgb(0, 174, 239);
 }
 
-.searchbar{
+.menuatas{
+    max-width: 480px;
     width: 100%;
-    background: rgb(0, 174, 239);
+    display: flex;
+    height: 60px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+.logo{
+    width: auto;
+    height: 33px;
+    margin-right: 20px;
+}
+
+.logostyle{
+    width: 33px;
+    height: 33px;
+    margin-left: 10px;
+}
+
+.search{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    height: 36px;
+    width: 100%;
+    margin-right: 15px;
+    background: rgb(27, 186, 245);
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 0px 15px;
+    border-radius: 20px;
+}
+
+.cari{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
 }
 
 .content{
     background-color:white;
     position: relative;
-    top: 0;
-    max-width: 628px;
+    top: 60px;
+    max-width: 480px;
     width: 100%;
     box-sizing: border-box;
-    min-height: calc(90vh - 70vh);
+    min-height: calc(100vh - 80vh);
     margin: 0px auto;
     padding: 0px 16px 80px
 }
@@ -24,6 +73,7 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 18px;
+    color: #4a4a4a;
     line-height: 80px;
     margin: 0px 0px 0px;   
 }
@@ -82,8 +132,8 @@
 .slider{
     background-color:white;
     position: relative;
-    top: 20px;
-    max-width: 628px;
+    top: 70px;
+    max-width: 480px;
     width: 100%;
     box-sizing: border-box;
     min-height: calc(100vh - 50vh);
@@ -157,31 +207,242 @@
     border-radius: 5px;
 }
 
-.pilihan{
-    margin: 10px 0px;
+.opsi{
+    max-width: 1020px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
 }
 
-.tangan{
-    width: 2px;
+.pilihan1{
+    width: 20%;
+    cursor: pointer;
+    margin: 0px 2.5%;
+    outline: none;
+}
+
+.icon{
+    width: 100%;
+    padding-top: 100%;
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+
+.label{
+    font-size: 15px;
+    padding-top: 8px;
+    font-family: Open 'Sans',sans-serif;
+    text-align: center;
+}
+
+.pilihan2{
+    width: 20%;
+    cursor: pointer;
+    margin: 0px 2.5%;
+    outline: none;
+}
+
+.pilihan3{
+    width: 20%;
+    cursor: pointer;
+    margin: 0px 2.5%;
+    outline: none;
+}
+
+.pilihan4{
+    width: 20%;
+    cursor: pointer;
+    margin: 0px 2.5%;
+    outline: none;
+}
+
+.danamendesak{
+    background-color:white;
+    position: relative;
+    top: 80px;
+    max-width: 480px;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: calc(100vh - 50vh);
+    margin: 0px auto;
+    padding: 0px 16px 80px
+}
+
+
+.desak{
+    color: rgb(74, 74, 74);
+    font-size: 22px;
+    line-height: 80px;
+    font-weight: 600;
+}
+.sliderdesak{
+    position: relative;
+}
+
+.arrowleft{
+    left: 0px;
+    display: none;
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    z-index: 1;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.arrowright{
+    right: 0px;
+    display: none;
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.slider2{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    margin-bottom: 1em;
+}
+
+.cardlink{
+    cursor: pointer;
+    color: inherit;
+    margin: 0px 0.5em 1em;
     text-decoration: none;
 }
 
-.zakat1{
-    width: 2px;
-    background-position: center center;
-    background-repeat: no-repeat;
+.cardstyle{
+    width: 280px;
 }
 
-.kbp{
-    width: 2px;
-    background-position: center center;
-    background-repeat: no-repeat;
+.cardlist{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(152, 152, 152, 0.2) 0px 2px 8px 1px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-image: initial;
+    border-radius: 4px;
 }
 
-.donasirutin{
-    width: 2px;
-    background-position: center center;
-    background-repeat: no-repeat;
+.cardfigure{
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+    flex: 1 1 0%;
+}
+
+.listcontent{
+    padding: 0.5em;
+}
+
+.Kembar{
+    width: 100%;
+    object-fit: cover;
+    height: 130px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.cardtitle{
+    font-weight: 600;
+    font-size: 12px;
+    color: rgb(74, 74, 74);
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-word;
+    margin: 0.25em 0em;
+    overflow: hidden;
+}
+
+.carditemcontent{
+    margin: 1em 0em
+}
+
+.styletrack{
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: rgb(0, 0, 0) 0px 0px inset;
+    border-radius: 10px;
+}
+
+.stylefiller{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 29.2994%;
+    height: 100%;
+    background-color: rgb(0, 174, 239);
+    border-radius: 2px;
+}
+
+.stylelarge{
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: 0.25em 0em;
+}
+
+.stylelargelist{
+    display: flex;
+    flex-direction: column;
+}
+
+.jumlah{
+    font-weight: 600;
+    font-size: 12px;
+    color: rgb(74, 74, 74);
+}
+
+.hariakhir{
+    display: flex;
+    flex-direction: column;
+}
+
+.hari{
+    font-weight: 600;
+    font-size: 12px;
+    color: rgb(74, 74, 74);
+}
+
+.stylefiller1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 45%;
+    height: 100%;
+    background-color: rgb(0, 174, 239);
+    border-radius: 2px;
+}
+
+.stylefiller2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 38%;
+    height: 100%;
+    background-color: rgb(0, 174, 239);
+    border-radius: 2px;
+}
+
+.stylefiller3{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 45%;
+    height: 100%;
+    background-color: rgb(0, 174, 239);
+    border-radius: 2px;
 }
