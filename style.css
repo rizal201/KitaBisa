@@ -57,7 +57,7 @@
     font-size: 12px;
 }
 
-.content{
+.main{
     background-color:white;
     position: relative;
     top: 60px;
@@ -69,6 +69,10 @@
     padding: 0px 16px 80px
 }
 
+.styleline{
+    margin: 15px -16px;
+    border-top: 7px solid rgb(247, 247, 247);
+}
 .tanya{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -129,18 +133,6 @@
     color: rgb(0, 174, 239);
 }
 
-.slider{
-    background-color:white;
-    position: relative;
-    top: 70px;
-    max-width: 480px;
-    width: 100%;
-    box-sizing: border-box;
-    min-height: calc(100vh - 50vh);
-    margin: 0px auto;
-    padding: 0px 16px 80px
-}
-
 .swiper-container {
     width: 100%;
     height: 100%;
@@ -166,42 +158,42 @@
   }
 
 .dana {
-    margin: 20px;
+    margin: 8px;
     height: auto;
     max-width: 100%;
-    border-radius: 5px;
+    border-radius: 5px
 }
 
 .zakat{
-    margin: 20px;
+    margin: 8px;
     height: auto;
     max-width: 100%;
     border-radius: 5px;
 }
 
 .donasi{
-    margin: 20px;
+    margin: 8px;
     height: auto;
     max-width: 100%;
     border-radius: 5px;
 }
 
 .bisasembuh{
-    margin: 20px;
+    margin: 8px;
     height: auto;
     max-width: 100%;
     border-radius: 5px;
 }
 
 .bantu{
-    margin: 20px;
+    margin: 8px;
     height: auto;
     max-width: 100%;
     border-radius: 5px;
 }
 
 .bantusiapa{
-    margin: 20px;
+    margin:8px;
     height: auto;
     max-width: 100%;
     border-radius: 5px;
@@ -214,11 +206,16 @@
     flex-direction: row;
 }
 
-.pilihan1{
+.tilewrapper{
     width: 20%;
     cursor: pointer;
     margin: 0px 2.5%;
     outline: none;
+}
+
+.iconwrapper{
+    width: 100%;
+    padding: 10px;
 }
 
 .icon{
@@ -229,55 +226,204 @@
     background-repeat: no-repeat;
 }
 
-
 .label{
-    font-size: 15px;
-    padding-top: 8px;
-    font-family: Open 'Sans',sans-serif;
-    text-align: center;
+    font-size: 0.9em;;
+    margin-top: 8px;
+   text-align: center;
 }
 
-.pilihan2{
-    width: 20%;
-    cursor: pointer;
-    margin: 0px 2.5%;
-    outline: none;
-}
-
-.pilihan3{
-    width: 20%;
-    cursor: pointer;
-    margin: 0px 2.5%;
-    outline: none;
-}
-
-.pilihan4{
-    width: 20%;
-    cursor: pointer;
-    margin: 0px 2.5%;
-    outline: none;
-}
-
-.danamendesak{
-    background-color:white;
-    position: relative;
-    top: 80px;
-    max-width: 480px;
-    width: 100%;
-    box-sizing: border-box;
-    min-height: calc(100vh - 50vh);
-    margin: 0px auto;
-    padding: 0px 16px 80px
-}
-
-
-.desak{
+.style_title{
+    font-family: 'Open Sans' ,sans-serif;
     color: rgb(74, 74, 74);
-    font-size: 22px;
-    line-height: 80px;
-    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600
 }
-.sliderdesak{
+
+.style_template{
+    position: relative;
+}
+
+.stylearrow{
+    left: 0px;
+    display: none;
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.stylearrow1{
+    right: 0px;
+    display: none;
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.style_container{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    margin-bottom: 1em;
+}
+
+.style_cardlink{
+    cursor: pointer;
+    color: inherit;
+    margin: 0px 0.5em 1em;
+    text-decoration: none;
+}
+
+.style_Container{
+    width: 280px;
+}
+
+.style_largelist{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(152, 152, 152, 0.2) 0px 2px 8px 1px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-image: initial;
+    border-radius: 4px;
+}
+
+.style_listfigure{
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+    flex: 1 1 0%;
+}
+
+.style_listimage{
+    width: 100%;
+    object-fit: cover;
+    height: 130px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.stylelistcontent{
+    padding: 0.5em;
+}
+
+.card_style{
+    font-weight: 600;
+    font-size: 12px;
+    color: rgb(74, 74, 74);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-word;
+    margin: 0.25em 0em;
+    overflow: hidden;
+}
+
+.Style_carditem{
+    margin: 1em 0em;
+}
+
+.style_track{
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: rgb(0, 0, 0) 0px 0px inset;
+    border-radius: 10px;
+}
+
+.stylefiller1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 36.3714%;
+    height: 100%;
+    background-color: rgb(0, 174, 239);
+    border-radius: 2px;
+}
+
+.stylefiller2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 67.186%;
+    height: 100%;
+    background-color: rgb(0, 174, 239);
+    border-radius: 2px;
+}
+
+.stylefiller3{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 83.018%;
+    height: 100%;
+    background-color: rgb(0, 174, 239);
+    border-radius: 2px;
+}
+
+.style_largelistcount{
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: 0.25em 0em;
+}
+
+.donationcollected{
+    display: flex;
+    flex-direction: column;
+}
+
+.jumlah{
+    font-weight: 600;
+    font-size: 12px;
+    color: rgb(74, 74, 74);
+}
+
+.style_largelistcount1{
+    display: flex;
+    flex-direction: column;
+}
+
+.hari{
+    font-weight: 600;
+    font-size: 12px;
+    color: rgb(74, 74, 74);
+}
+
+.style_Titlecontainer{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: 1em 0px;
+}
+
+.Title{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(74, 74, 74);
+    line-height: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.linktext{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.styletemplateslider{
     position: relative;
 }
 
@@ -288,8 +434,6 @@
     top: 40%;
     cursor: pointer;
     z-index: 1;
-    max-width: 100%;
-    vertical-align: middle;
 }
 
 .arrowright{
@@ -301,7 +445,7 @@
     z-index: 1;
 }
 
-.slider2{
+.stylecontainslide{
     display: flex;
     flex-direction: row;
     overflow-x: auto;
@@ -309,18 +453,18 @@
     margin-bottom: 1em;
 }
 
-.cardlink{
+.Style_Cardlink{
     cursor: pointer;
     color: inherit;
     margin: 0px 0.5em 1em;
     text-decoration: none;
 }
 
-.cardstyle{
-    width: 280px;
+.CardContainer{
+    width: 150px;
 }
 
-.cardlist{
+.gridcontainer{
     display: flex;
     flex-direction: column;
     box-shadow: rgba(152, 152, 152, 0.2) 0px 2px 8px 1px;
@@ -331,7 +475,7 @@
     border-radius: 4px;
 }
 
-.cardfigure{
+.gridfigure{
     position: relative;
     display: flex;
     -webkit-box-pack: center;
@@ -342,107 +486,13 @@
     flex: 1 1 0%;
 }
 
-.listcontent{
-    padding: 0.5em;
-}
-
-.Kembar{
+.gridimage{
     width: 100%;
     object-fit: cover;
-    height: 130px;
+    height: 85px;
     border-radius: 4px 4px 0px 0px;
 }
 
-.cardtitle{
-    font-weight: 600;
-    font-size: 12px;
-    color: rgb(74, 74, 74);
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    word-break: break-word;
-    margin: 0.25em 0em;
-    overflow: hidden;
-}
 
-.carditemcontent{
-    margin: 1em 0em
-}
 
-.styletrack{
-    position: relative;
-    width: 100%;
-    height: 5px;
-    background-color: rgba(0, 0, 0, 0.1);
-    box-shadow: rgb(0, 0, 0) 0px 0px inset;
-    border-radius: 10px;
-}
 
-.stylefiller{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 29.2994%;
-    height: 100%;
-    background-color: rgb(0, 174, 239);
-    border-radius: 2px;
-}
-
-.stylelarge{
-    width: 100%;
-    display: flex;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    margin: 0.25em 0em;
-}
-
-.stylelargelist{
-    display: flex;
-    flex-direction: column;
-}
-
-.jumlah{
-    font-weight: 600;
-    font-size: 12px;
-    color: rgb(74, 74, 74);
-}
-
-.hariakhir{
-    display: flex;
-    flex-direction: column;
-}
-
-.hari{
-    font-weight: 600;
-    font-size: 12px;
-    color: rgb(74, 74, 74);
-}
-
-.stylefiller1{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 45%;
-    height: 100%;
-    background-color: rgb(0, 174, 239);
-    border-radius: 2px;
-}
-
-.stylefiller2{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 38%;
-    height: 100%;
-    background-color: rgb(0, 174, 239);
-    border-radius: 2px;
-}
-
-.stylefiller3{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 45%;
-    height: 100%;
-    background-color: rgb(0, 174, 239);
-    border-radius: 2px;
-}
