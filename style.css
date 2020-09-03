@@ -423,7 +423,7 @@
     margin: 0px;
 }
 
-.styletemplateslider{
+.styleTemplate{
     position: relative;
 }
 
@@ -445,7 +445,7 @@
     z-index: 1;
 }
 
-.stylecontainslide{
+.stylecontainerslider{
     display: flex;
     flex-direction: row;
     overflow-x: auto;
@@ -453,18 +453,18 @@
     margin-bottom: 1em;
 }
 
-.Style_Cardlink{
+.stylecardlink{
     cursor: pointer;
     color: inherit;
     margin: 0px 0.5em 1em;
     text-decoration: none;
 }
 
-.CardContainer{
+.Stylecard{
     width: 150px;
 }
 
-.gridcontainer{
+.stylegrid{
     display: flex;
     flex-direction: column;
     box-shadow: rgba(152, 152, 152, 0.2) 0px 2px 8px 1px;
@@ -483,16 +483,500 @@
     -webkit-box-align: center;
     align-items: center;
     margin: 0px;
-    flex: 1 1 0%;
+    flex: 1 1 0%
 }
 
-.gridimage{
+.stylegridimage{
     width: 100%;
     object-fit: cover;
     height: 85px;
     border-radius: 4px 4px 0px 0px;
 }
 
+.gridcontent{
+    padding: 0.5em;
+}
 
+.card_Style{
+    min-height: 2.5em;
+}
 
+.CardStyle_cardtitle{
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: rgb(74, 74, 74);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-word;
+    margin: 0.25em 0em;
+    overflow: hidden;
+}
 
+.CardStyle{
+    margin: 1em 0em;
+}
+
+.cardSubtitle{
+    display: flex;
+    width: 100%;
+    vertical-align: middle;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.8);
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0.25em 0em;
+}
+
+.yayasan{
+    font-family: 'Open Sans' , sans-serif;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.linkaset{
+    height: 12px;
+    margin-left: 0.25em;
+}
+
+.carditemContent{
+    margin: 1em 0em;
+}
+
+.track{
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: rgb(0, 0, 0) 0px 0px inset;
+    border-radius: 10px;
+}
+
+.stylefill{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 34.8945%;
+    height: 100%;
+    background-color: rgb(0, 174, 239);
+    border-radius: 2px;
+}
+
+.donation{
+    display: flex;
+    flex-direction: column;
+}
+
+.terkumpul{
+    margin-left: 4px;
+    line-height: 1.75em;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.jumlah{
+    margin-left: 4px;
+    line-height: 1.75em;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.stylefill1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 69.0804%;
+    height: 100%;
+    background-color: rgb(0, 174, 239);
+    border-radius: 2px;
+}
+
+.stylefill2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 6.64981%;
+    height: 100%;
+    background-color: rgb(0, 174, 239);
+    border-radius: 2px;
+}
+
+.stylefill3{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 4.22252%;
+    height: 100%;
+    background-color: rgb(0, 174, 239);
+    border-radius: 2px;
+}
+
+.stylefill4{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 18.5007%;
+    height: 100%;
+    background-color: rgb(0, 174, 239);
+    border-radius: 2px;
+}
+
+.stylefill5{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 7.16528%;
+    height: 100%;
+    background-color: rgb(0, 174, 239);
+    border-radius: 2px;
+}
+
+.stylefill6{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1.54656%;
+    height: 100%;
+    background-color: rgb(0, 174, 239);
+    border-radius: 2px;
+}
+
+.stylefill7{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 59.3226%;
+    height: 100%;
+    background-color: rgb(0, 174, 239);
+    border-radius: 2px
+}
+
+.stylefill8{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 39.9515%;
+    height: 100%;
+    background-color: rgb(0, 174, 239);
+    border-radius: 2px;
+}
+
+.stylefill9{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1.11744%;
+    height: 100%;
+    background-color: rgb(0, 174, 239);
+    border-radius: 2px;
+}
+
+.linksemua{
+    cursor: pointer;
+    color: inherit;
+    margin: 0px 0.5em 1em;
+    text-decoration: none;
+}
+.style_Cardsemua{
+    width: 150px;
+    display: flex;
+    height: 100%;
+    color: rgb(0, 174, 239);
+    text-align: center;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.seemore{
+    font-size: 32px;
+}
+
+.seemoretext{
+    font-size: 20px;
+    margin: 0px;
+}
+
+.Style_Title{
+    color: rgb(74, 74, 74);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.roundedButton{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.roundedButtonwrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100px;
+    cursor: pointer;
+    margin: 0px 5px;
+}
+
+.roundedButtonicon{
+    width: 50px;
+    position: relative;
+    border-radius: 50%;
+    padding: 12px;
+    background: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 174, 239);
+    border-image: initial;
+}
+
+.bencanaalam{
+    width: 20px;
+}
+
+.roundedButtontext{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.roundedButtonwrappersc{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100px;
+    cursor: pointer;
+    margin: 0px 5px;
+}
+
+.roundedButtonwrappericonlk{
+    width: 50px;
+    position: relative;
+    border-radius: 50%;
+    padding: 12px;
+    background: rgb(248, 248, 248) ;
+}
+
+.styleroundedicon{
+    width: 20px;
+}
+.roundedtext{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.Style_Item{
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+}
+
+.Style_List{
+    display: flex;
+    background-color: white;
+    line-height: 1.25em;
+    margin: 1em 0em;
+}
+
+.Style_ListFigureCanvas{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+    margin: 0px 20px 0px 0px;
+    flex: 1 1 0%;
+}
+
+.ImageCanvas{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 4px;
+}
+
+.ListImageContainer{
+    background-image: url(img/sulawesi.jpg);
+    background-size: cover;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: rgb(243, 243, 243);
+    max-width: 214px;
+    width: 100%;
+    max-height: 120px;
+    height: 100%;
+    z-index: 0;
+    border-radius: 6px;
+}
+
+.list_Content{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex: 1 1 0%;
+}
+
+.card_Title{
+    font-weight: 600;
+    font-size: 12px;
+    color: rgb(74, 74, 74);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-word;
+    margin: 0.25em 0em;
+    overflow: hidden;
+}
+
+.listcardstylesubtitle{
+    display: flex;
+    width: 100%;
+    vertical-align: middle;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.8);
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0.25em 0em;
+}
+
+.subtitle{
+    font-family: 'Open Sans' , sans-serif;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 110px;
+    overflow: hidden
+}
+
+.org{
+    height: 12px;
+    margin-left: 0.25em;
+}
+
+.Card_StyleItemcontent{
+    margin: 0.25em 0em;
+}
+
+.Tracksc{
+    position: relative;
+    width: 100%;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: rgb(0, 0, 0) 0px 0px inset;
+    border-radius: 10px;
+}
+
+.filler{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 27.8707%;
+    height: 100%;
+    background-color: rgb(0, 174, 239);
+    border-radius: 2px;
+}
+
+.List_COunt{
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: 0.25em 0em;
+}
+
+.doncollacted{
+    display: flex;
+    flex-direction: column;
+}
+
+.kumpul{
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgb(74, 74, 74) ;
+}
+
+.rupiah{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.Count_Item{
+    display: flex;
+    flex-direction: column;
+}
+
+.sisa{
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgb(74, 74, 74);
+}
+
+.DAY{
+    font-size: 12px;
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: 700;
+}
+
+.ListBorder{
+    height: 1px;
+    background: rgb(232, 232, 232) ;
+}
+
+.filler1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 96.0743%;
+    height: 100%;
+    background-color: rgb(0, 174, 239);
+    border-radius: 2px;
+}
+
+.ListImageContainer2{
+    background-image: url(img/sumbangan.jpg);
+    background-size: cover;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: rgb(243, 243, 243);
+    max-width: 214px;
+    width: 100%;
+    max-height: 120px;
+    height: 100%;
+    z-index: 0;
+    border-radius: 6px;
+}
+
+.ListImageContainer3{
+    background-image: url(img/praymasamba.jpg);
+    background-size: cover;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: rgb(243, 243, 243);
+    max-width: 214px;
+    width: 100%;
+    max-height: 120px;
+    height: 100%;
+    z-index: 0;
+    border-radius: 6px;
+}
