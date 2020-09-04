@@ -1108,7 +1108,7 @@ span{
     position: relative;
     padding-top: 4px;
     margin-bottom: 4px;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 .menuiconnav3{
     position: relative;
@@ -1131,7 +1131,7 @@ span{
 
 .teksgalang{
     font-family: 'Open Sans' , sans-serif;
-    margin-left: 20px;
+    margin-left: 30px;
     color: rgb(168, 168, 168);
     white-space: nowrap;
     display: inline-block;
