@@ -980,3 +980,188 @@
     z-index: 0;
     border-radius: 6px;
 }
+
+.style_seeallcard{
+    font-family: 'Open Sans' , sans-serif;
+    width: 160px;
+    text-align: center;
+    background-color: rgb(231, 245, 255);
+    color: rgb(16, 168, 229);
+    font-size: 12px;
+    position: relative;
+    cursor: pointer;
+    margin: 1em auto;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.styleseeall{
+    position: absolute;
+    top: 50%;
+    transform: translate(0px, -50%);
+    right: 10px;
+}
+
+.style_widecard{
+    cursor: pointer;
+    margin: 0px -16px;
+}
+
+.bannerhome{
+    max-width: 100%;
+    vertical-align: middle
+}
+
+.stylewidecardimage{
+    cursor: pointer;
+    margin: 0px -16px;
+}
+
+.kitabisa{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.stylenavigationmenu{
+    list-style-type: none;
+    display: inline-block;
+    border-right-style: initial;
+    border-bottom-style: initial;
+    border-left-style: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    font-weight: 600;
+    line-height: 13px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    max-width: 480px;
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2;
+    font-size: 1em;
+    background-color: rgb(255, 255, 255);
+    border-width: 1px 0px 0px;
+    border-image: initial;
+    transition: all 0.35s ease 0s;
+    text-decoration: none;
+    padding: 10px;
+    border-top: 1px solid rgb(222, 222, 222);
+    margin: 0px;
+}
+
+.navigationmenuitem{
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.menuicon{
+    position: relative;
+    padding-top: 4px;
+    margin-bottom: 4px;
+}
+
+.menu{
+    max-width: 100%;
+    vertical-align: middle;
+    color: rgb(0, 170, 239);
+    display: inline-block;
+}
+
+.teksdonasi{
+    color: rgb(0, 170, 239);
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.galang-dana{
+    display: inline-block;
+    width: 20%;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.menuiconnav{
+    position: relative;
+    padding-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+}
+
+.galang{
+    display: inline-block;
+   color:  rgb(168, 168, 168);;
+}
+
+.teksgalang{
+    margin-left: 4px;
+    color: rgb(168, 168, 168);
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.style_Container-mk{
+    position: fixed;
+    left: 50%;
+    width: 100%;
+    background-color: white;
+    border-top-left-radius: 12px;
+    box-shadow: rgba(152, 152, 152, 0.2) 0px -10px 10px 0px;
+    border-top-right-radius: 12px;
+    max-width: 480px;
+    transform: translate(-50%, 0px);
+    z-index: 12;
+    padding: 8px 16px 16px;
+}
+
+.BankTransfer{
+    text-align: center;
+}
+
+.styleBankTransfer{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 10px 0px;
+}
+
+.banktransferpending{
+    font-family: 'Open Sans' , sans-serif;
+    padding-top: 10px;
+}
+
+.style_fieldset{
+    margin: 30px 0px 20px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 0px;
+}
+
+.style_button-hl{
+    display: inline-block;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    font-size: 1em;
+    background-color: rgb(0, 174, 239);
+    color: rgb(255, 255, 255);
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    transition: all 0.35s ease 0s;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 11px 37.5px;
+}
