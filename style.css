@@ -8,6 +8,11 @@
     background: rgb(0, 174, 239);
 }
 
+::placeholder{
+    color: white;
+    text-decoration-style: none;
+}
+
 .menuatas{
     max-width: 480px;
     width: 100%;
@@ -33,6 +38,7 @@
 }
 
 .search{
+    text-decoration: none;
     display: flex;
     -webkit-box-pack: justify;
     justify-content: space-between;
@@ -55,6 +61,9 @@
 .cari{
     color: rgb(255, 255, 255);
     font-size: 12px;
+}
+.ex{
+    cursor: pointer;
 }
 
 .main{
@@ -314,7 +323,10 @@
     padding: 0.5em;
 }
 
-.card_style{
+a{
+    text-decoration: none;
+}
+span{
     font-weight: 600;
     font-size: 12px;
     color: rgb(74, 74, 74);
@@ -1089,7 +1101,27 @@
     position: relative;
     padding-top: 4px;
     margin-bottom: 4px;
-    margin-left: 4px;
+    margin-left: 40px;
+}
+
+.menuiconnav2{
+    position: relative;
+    padding-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 60px;
+}
+.menuiconnav3{
+    position: relative;
+    padding-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 50px;
+}
+
+.menuiconnav4{
+    position: relative;
+    padding-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 16px;
 }
 
 .galang{
@@ -1098,7 +1130,31 @@
 }
 
 .teksgalang{
-    margin-left: 4px;
+    font-family: 'Open Sans' , sans-serif;
+    margin-left: 20px;
+    color: rgb(168, 168, 168);
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.teksgalang2{
+    font-family: 'Open Sans' , sans-serif;
+    margin-left: 35px;
+    color: rgb(168, 168, 168);
+    white-space: nowrap;
+    display: inline-block;
+}
+.teksgalang3{
+    font-family: 'Open Sans' , sans-serif;
+    margin-left: 49px;
+    color: rgb(168, 168, 168);
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.teksgalang4{
+    font-family: 'Open Sans' , sans-serif;
+    margin-left: 16px;
     color: rgb(168, 168, 168);
     white-space: nowrap;
     display: inline-block;
