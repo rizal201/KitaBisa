@@ -1131,7 +1131,7 @@ span{
 
 .teksgalang{
     font-family: 'Open Sans' , sans-serif;
-    margin-left: 30px;
+    margin-left: 25px;
     color: rgb(168, 168, 168);
     white-space: nowrap;
     display: inline-block;
@@ -1139,14 +1139,14 @@ span{
 
 .teksgalang2{
     font-family: 'Open Sans' , sans-serif;
-    margin-left: 35px;
+    margin-left: 33px;
     color: rgb(168, 168, 168);
     white-space: nowrap;
     display: inline-block;
 }
 .teksgalang3{
     font-family: 'Open Sans' , sans-serif;
-    margin-left: 49px;
+    margin-left: 50px;
     color: rgb(168, 168, 168);
     white-space: nowrap;
     display: inline-block;
@@ -1154,7 +1154,7 @@ span{
 
 .teksgalang4{
     font-family: 'Open Sans' , sans-serif;
-    margin-left: 16px;
+    margin-left: 10px;
     color: rgb(168, 168, 168);
     white-space: nowrap;
     display: inline-block;
